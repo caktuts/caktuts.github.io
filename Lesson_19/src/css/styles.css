@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_Reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Fonts */
+/* Colors */
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+/* Typography */
+/* main */
+.main {
+  padding: 3rem 0;
+  background: url("../img/Слой 15.jpg") center center no-repeat;
+}
+.main-header {
+  font-family: 'ProximaNova_bold';
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-top: 10rem;
+}
+.main-paragraph {
+  font-family: 'ProximaNova_Reg';
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+.main-span {
+  font-family: 'ProximaNova_Reg';
+  color: #ffffff;
+  width: 225px;
+  background-color: #70c849;
+  padding: 2.5rem 4rem 2rem 4rem;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 4rem;
+}
+.main-strong {
+  font-size: 3rem;
+}
+.main-str {
+  font-family: 'ProximaNova_bold';
+  display: block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+/* Main-form */
+.main-form {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 10rem;
+  padding: 4rem 5rem;
+}
+.main-form-input {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 4.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  border: 1px solid #dddddd;
+}
+.main-form-btn {
+  background-color: #fdb403;
+  color: #ffffff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1rem 3rem;
+  font-family: 'ProximaNova_Reg';
+  font-size: 18px;
+}
+.main-form-header {
+  font-family: 'ProximaNova_Reg';
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+/* Label */
+label {
+  display: block;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 0.5rem;
+  position: absolute;
+  letter-spacing: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.time {
+  display: inline-block;
+  text-align: left;
+  margin-top: 1rem;
+  padding: 0 2rem;
+  font-family: 'ProximaNova_Reg';
+  font-size: 12px;
+}
+.section {
+  padding: 10rem 0;
+}
+.button {
+  background-color: #fdb403;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  font-family: 'ProximaNova_Reg';
+  font-size: 12px;
+}
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-weight: 900;
+  font-size: 1.5rem;
+  height: 7rem;
+  line-height: 7rem;
+  font-family: 'ProximaNova_bold';
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
