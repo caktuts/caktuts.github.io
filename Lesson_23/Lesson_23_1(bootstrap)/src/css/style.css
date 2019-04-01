@@ -1,0 +1,14 @@
+img{
+	margin-top: 10rem;
+	margin-bottom: 9rem;
+}
+.modal-body img{
+	width: 100%;
+}
+
+.delete-btn{
+	border: none;
+	padding: 1rem;
+	border-radius: 8px;
+	outline: none;
+}
