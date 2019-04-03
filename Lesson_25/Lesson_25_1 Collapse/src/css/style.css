@@ -1,0 +1,22 @@
+.btn-collapse{
+	background-color: #0bbaf0;
+	font-size: 2.2rem;
+	font-family: sans-serif;
+
+}
+.collapse-header, .collapse-title{
+	text-transform: uppercase;
+	color:#0bbaf0;
+	text-align: center;
+}
+.collapse-title{
+	font-size: 2.4rem;
+}
+
+.collapse-text{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+.well{
+	width: 77rem;
+}
