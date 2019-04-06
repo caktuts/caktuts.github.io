@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <<link rel="stylesheet" href="src/css/animate.css">>
+	<link rel="stylesheet" href="src/css/bootstrap.css">
+	<link rel="stylesheet" href="src/css/style.css">
+	<title>Modal window</title>
+</head>
+<body>
+<div class="container">
+   <div class="row">
+     <div class="col-lg-6 col-lg-offset-3">
+       <div class="content wow flipInX">
+         <div class="placeholder">
+           <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Log in</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Log up</a></li>
+         </div>
+       </div>
+    
+  </ul>
+
+  <!-- Tab panes -->
+    
+    <div class="tab-content wow bounceInLeft" data-wow-delay="1s">
+    <div role="tabpanel" class="tab-pane fade in active" id="home">
+      <div class="form-place">
+        <div class="form-content">
+          <div class="main-form">
+                <input class="form-input " type="text" placeholder="Your name">     
+                <input class="form-input " type="password" placeholder="Password">
+                <a  class="forget" href="#">forget the password?</a>
+                <input class="box" id="check"type="checkbox">
+                <label class="check"for="#check">Напомнить мне</label>
+                <button class="btn-danger btn submit ">Enter</button>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div role="tabpanel" class="tab-pane " id="profile"></div>
+  </div>
+  </div>
+
+</div>
+     </div>
+   </div>
+
+</div>
+<!-- Библиотека JQuerry -->
+<script
+  src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+ <!-- Библиотека Bootstrap-3 -->
+<script src="src/js/bootstrap.min.js"></script>
+<!--WOW библиотека-->
+<script src="src/js/wow.min.js"></script>
+<script>
+  var wow = new WOW;
+  wow.init();
+</script>
+
+</body>
+</html>
